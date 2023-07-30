@@ -10,7 +10,7 @@ export type WrappedSlideProps = {
 
 function WrappedContainer({
   children,
-  bg = "bg-starship-400",
+  bg = "bg-twitter-400",
   text = "text-zinc-900",
 }: {
   children: React.ReactNode;

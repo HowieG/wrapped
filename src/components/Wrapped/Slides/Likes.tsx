@@ -18,7 +18,7 @@ const commentsOnLikes = {
 
 function Likes({ statistics }: WrappedSlideProps) {
   return (
-    <WrappedContainer bg="bg-zinc-900" text="text-starship-400">
+    <WrappedContainer bg="bg-zinc-900" text="text-twitter-400">
       <InfoText className="!text-zinc-200 animate-in slide-in-from-bottom fade-in duration-1000">
         You liked
       </InfoText>

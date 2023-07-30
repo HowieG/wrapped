@@ -32,7 +32,7 @@ function WatchedVideos({ statistics }: WrappedSlideProps) {
   const firstWatchedVideo = statistics.watchSessions.earliestVideoWatched;
 
   return (
-    <WrappedContainer bg="bg-zinc-900" text="text-starship-400">
+    <WrappedContainer bg="bg-zinc-900" text="text-twitter-400">
       <InfoText className="!text-zinc-200">
         Since {dayjs(firstWatchedVideo).format("L")} you've watched
       </InfoText>

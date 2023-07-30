@@ -49,18 +49,11 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        starship: {
-          50: "#fafde9",
-          100: "#f3fbc6",
-          200: "#edf98f",
-          300: "#e9f54f",
-          400: "#ebf134",
-          500: "#e0de12",
-          600: "#c1b10d",
-          700: "#9a820e",
-          800: "#806613",
-          900: "#6d5316",
-          950: "#3f2d09",
+        twitter: {
+          100: "#8BCFF5",
+          300: "#4FAFED",
+          400: "#1DA1F2",
+          500: "#198FD7",
         },
       },
       borderRadius: {

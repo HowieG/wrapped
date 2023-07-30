@@ -6,7 +6,7 @@ import { Button } from "../ui/button";
 
 function SpotifyInfoText({ onContinue }: { onContinue: () => void }) {
   return (
-    <WrappedContainer bg="bg-zinc-900" text="text-starship-400">
+    <WrappedContainer bg="bg-zinc-900" text="text-twitter-400">
       <FatHeading>Better with Spotify</FatHeading>
       <MutedText className="!text-zinc-200 max-w-xl mx-auto">
         Wrapped for TikTok can play fitting songs during your Wrapped using the
@@ -30,7 +30,7 @@ function SpotifyInfoText({ onContinue }: { onContinue: () => void }) {
           )}`;
           window.location.href = url;
         }}
-        className="bg-starship-500 hover:bg-starship-300 text-zinc-900"
+        className="bg-twitter-500 hover:bg-twitter-300 text-zinc-900"
       >
         I have Spotify Premium, let's go!
       </Button>

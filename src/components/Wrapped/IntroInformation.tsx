@@ -61,7 +61,7 @@ function IntroInformation({
               I have my TikTok data export, let's go!
               <ArrowRight className="ml-2" size={16} />
             </Button>
-            <Button className="dark w-full bg-starship-100" onClick={onDemo}>
+            <Button className="dark w-full bg-twitter-100" onClick={onDemo}>
               Show demo Wrapped
               <PlugZap className="ml-2" size={16} />
             </Button>
