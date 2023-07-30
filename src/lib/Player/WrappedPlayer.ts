@@ -30,7 +30,7 @@ const SLIDES: Slide[] = [
   {
     name: "Intro",
     component: Intro,
-    duration: 6000,
+    duration: 500,
     spotify: {
       uri: "spotify:track:7KA4W4McWYRpgf0fWsJZWB",
     },
@@ -38,13 +38,13 @@ const SLIDES: Slide[] = [
   {
     name: "WatchedVideos",
     component: WatchedVideos,
-    duration: 6000,
+    duration: 500,
     skip: (statistics) => statistics.videoAmountWatched === 0,
   },
   {
     name: "WatchSessions",
     component: WatchSessions,
-    duration: 6000,
+    duration: 500,
     spotify: {
       uri: "spotify:track:6AQbmUe0Qwf5PZnt4HmTXv",
     },
@@ -53,26 +53,26 @@ const SLIDES: Slide[] = [
   {
     name: "WatchSessionLength",
     component: WatchSessionLength,
-    duration: 6000,
+    duration: 500,
     skip: (statistics) =>
       statistics.watchSessions.averageSessionLengthSec === 0,
   },
   {
     name: "TotalWatchTime",
     component: TotalWatchTime,
-    duration: 6000,
+    duration: 500,
     skip: (statistics) => statistics.watchSessions.totalWatchTimeSec === 0,
   },
   {
     name: "WatchTimeComparableActivity",
     component: WatchTimeComparableActivity,
-    duration: 6000,
+    duration: 500,
     skip: (statistics) => statistics.watchSessions.totalWatchTimeSec === 0,
   },
   {
     name: "LongestWatchSession",
     component: LongestWatchSession,
-    duration: 6000,
+    duration: 500,
     spotify: {
       uri: "spotify:track:1Qrg8KqiBpW07V7PNxwwwL",
     },
@@ -82,14 +82,14 @@ const SLIDES: Slide[] = [
   {
     name: "MostActiveWeekday",
     component: MostActiveWeekday,
-    duration: 6000,
+    duration: 500,
     skip: (statistics) =>
       statistics.watchSessions.mostActiveWeekday.averageUsageTime === 0,
   },
   {
     name: "Comments",
     component: Comments,
-    duration: 6000,
+    duration: 500,
     spotify: {
       uri: "spotify:track:6UN73IYd0hZxLi8wFPMQij",
     },
@@ -98,19 +98,19 @@ const SLIDES: Slide[] = [
   {
     name: "Likes",
     component: Likes,
-    duration: 6000,
+    duration: 500,
     skip: (statistics) => statistics.likes.totalLikes === 0,
   },
   {
     name: "Persona",
     component: Persona,
-    duration: 6000,
+    duration: 500,
     skip: (statistics) => statistics.likes.totalLikes === 0,
   },
   {
     name: "Roundup",
     component: Roundup,
-    duration: 6000,
+    duration: 500,
     spotify: {
       uri: "spotify:track:5odlY52u43F5BjByhxg7wg",
     },
